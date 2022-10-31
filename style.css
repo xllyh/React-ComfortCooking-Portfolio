@@ -53,6 +53,10 @@ p {
   color: white;
   font-weight: 150;
   font-size: larger;
+  text-decoration: none;
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
 }
 
 .navigation-links {
@@ -157,5 +161,17 @@ p {
   .mobile-p-padding {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .category-tile {
+    border-radius: 15px;
+    padding: 15px 20px;
+    color: white;
+    font-weight: 150;
+    font-size: larger;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 5px;
   }
 }
