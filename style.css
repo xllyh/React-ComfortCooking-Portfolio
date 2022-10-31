@@ -24,7 +24,7 @@
 }
 
 .page-content {
-  padding: 40px 80px;
+  padding: 40px 10%;
 }
 
 h1 {
@@ -63,7 +63,7 @@ p {
 }
 
 .navigation-links a {
-  margin: 20px;
+  margin: 20px 10px;
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
