@@ -184,6 +184,7 @@ p {
   }
 
   #footer-cta {
+    position: fixed;
     background: blue;
   }
 }
@@ -199,17 +200,13 @@ p {
   padding: 0px 80px;
 }
 
-#footer-cta-container {
-  margin: auto;
-  text-align: center;
-}
-
 .footer-cta {
   background-color: #b2b8c3;
-  padding: 8% 16%;
-}
-
-.footer-cta:hover {
-  color: white;
-  background: black;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 200px;
 }
