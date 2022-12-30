@@ -151,7 +151,7 @@ p {
   }
 
   h2 {
-    font-size: 48px;
+    font-size: 24px;
   }
 
   h3 {
@@ -212,4 +212,18 @@ p {
 .footer-cta:hover {
   color: white;
   background: black;
+}
+
+.recipe-img {
+  height: 300px;
+}
+
+.recipe-cta {
+  text-decoration: none;
+  color: black;
+}
+
+.recipe-cta:hover {
+  text-decoration: underline;
+  color: black;
 }
