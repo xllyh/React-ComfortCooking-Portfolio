@@ -63,6 +63,12 @@ p {
   border-width: 5px;
 }
 
+.category-tile:hover {
+  font-weight: bold;
+  color: white;
+  transition: 0.2s;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 10px;
