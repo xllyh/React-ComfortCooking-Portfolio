@@ -1,118 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script
-      type="text/javascript"
-      src="https://codesandbox.io/public/sse-hooks/sse-hooks.f742b80f43c5a2e0e619b0d97b5886cd.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://codesandbox.io/static/js/banner.be879265d.js"
-    ></script>
-
-    <meta charset="UTF-8" />
-    <meta
-      name="description"
-      content="This is the portfolio page for Sally H, a front end developer to be. This page contains projects that she has worked on previously and ways to contact her for more work"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-      crossorigin="anonymous"
-    ></script>
-    <title>Front-end Developer Wannabe - Sally H</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Libre+Baskerville:wght@700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"> 🫠 </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="recipes.html">Recipes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html#contact">Contact Me</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <div id="hero-banner" style="height: 250px">
-      <div class="text-container">
-        <h1 class="text-left pt-5">Recipes</h1>
-      </div>
-    </div>
-    <div class="page-content">
-      <div class="recipe-category">
-        <h2>Succulent Stuff</h2>
-        <div class="container">
-          <div class="row">
-<div class="col-sm-6">
-              <img
-                src="images/spring-onion-chicken.png"
-                class="img-fluid rounded recipe-img pb-3"
-                alt=""
-                width="420"
-                height="200"
-              />
-              <a href="" class="recipe-cta"><h3>Spring Onion Chicken</h3></a>
-              <p class="white-bg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perferendis quia, dignissimos nam ratione veniam quibusdam porro
-                omnis quam vel eos eveniet alias temporibus deserunt veritatis
-                minima fugiat explicabo eum dolore.
-              </p>
+   <head>
+      <script
+         type="text/javascript"
+         src="https://codesandbox.io/public/sse-hooks/sse-hooks.f742b80f43c5a2e0e619b0d97b5886cd.js"
+         ></script>
+      <script
+         type="text/javascript"
+         src="https://codesandbox.io/static/js/banner.be879265d.js"
+         ></script>
+      <meta charset="UTF-8" />
+      <meta
+         name="description"
+         content="This is the portfolio page for Sally H, a front end developer to be. This page contains projects that she has worked on previously and ways to contact her for more work"
+         />
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+         crossorigin="anonymous"
+         />
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+         crossorigin="anonymous"
+         ></script>
+      <title>Front-end Developer Wannabe - Sally H</title>
+      <link rel="stylesheet" href="style.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Libre+Baskerville:wght@700&display=swap"
+         rel="stylesheet"
+         />
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+         <div class="container-fluid">
+            <a class="navbar-brand" href="#"> 🫠 </a>
+            <button
+               class="navbar-toggler"
+               type="button"
+               data-bs-toggle="collapse"
+               data-bs-target="#navbarNav"
+               aria-controls="navbarNav"
+               aria-expanded="false"
+               aria-label="Toggle navigation"
+               >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav">
+                  <li class="nav-item">
+                     <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link active" href="recipes.html">Recipes</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="about.html">About me</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="about.html#contact">Contact Me</a>
+                  </li>
+               </ul>
             </div>
-            <div class="col-sm-6">
-              <img
-                src="images/spring-onion-chicken.png"
-                class="img-fluid rounded recipe-img pb-3"
-                alt=""
-              />
-              <a href="" class="recipe-cta"><h3>Spring Onion Chicken</h3></a>
-              <p class="white-bg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perferendis quia, dignissimos nam ratione veniam quibusdam porro
-                omnis quam vel eos eveniet alias temporibus deserunt veritatis
-                minima fugiat explicabo eum dolore.
-              </p>
-            </div>
-            </div>
-          </div>
-        </div>
+         </div>
+      </nav>
+      <div id="hero-banner" style="height: 250px">
+         <div class="text-container">
+            <h1 class="text-left pt-5">Recipes</h1>
+         </div>
       </div>
-    </div>
-  </body>
+      <div class="page-content">
+         <p>Not all the recipes you will find below are mine, a link leading to the pages of the amazing creators that generously shared their recipes with the world will be included in those recipes. If you like it, give them a like or follow to show your support 🙌🏼</p>
+         <p>All the recipes can be easily made by anyone regardless of their cooking level, give it a go!</p>
+         <div class="recipe-category">
+            <h2 style="color:var(--secondary-color)"><b>Succulent Stuff</b></h2>
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-6 px-5">
+                     <a href="https://redhousespice.com/red-cooked-pork-belly/#recipe" class="clickable-img">
+                        <img
+                           src="images/braised-pork-final.png"
+                           class="img-fluid rounded recipe-img pb-3 image"
+                           alt=""
+                           />
+                        <div class="middle">
+                           <p>yuuumm.. let's start cooking</p>
+                        </div>
+                     </a>
+                     <a href="https://redhousespice.com/red-cooked-pork-belly/#recipe" class="recipe-cta">
+                        <h3>Sweet Braised Pork</h3>
+                     </a>
+                     <p class="white-bg">
+                        Perfect for a gloomy day, dig into this cubed pork dish that melts in your mouth braised in a sweet, umami and sticky sauce. This easy version of the recipe only requires you shoving everything in a pot and let it simmer. Best served with a bowl of rice 🍚
+                     </p>
+                  </div>
+                  <div class="col-md-6 px-5">
+                     <a href="" class="clickable-img">
+                        <img
+                           src="images/spring-onion-chicken.png"
+                           class="img-fluid rounded recipe-img pb-3 image"
+                           alt=""
+                           />
+                        <div class="middle">
+                           <p>yuuumm.. let's start cooking</p>
+                        </div>
+                     </a>
+                     <a href="" class="recipe-cta">
+                        <h3>Spring Onion Chicken</h3>
+                     </a>
+                     <p class="white-bg">
+                        One for those that wants a light and healthy dish that'll keep you going back for more! You can also shred the chicken and mix in the sauce to make it less messy to eat.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+                  <div class="recipe-category">
+            <h2 style="color:var(--tertiary-color)"><b>Soupy Stuff</b></h2>
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-6 px-5">
+                     <a href="https://thewoksoflife.com/chinese-pork-bone-soup-with-tomatoes-potatoes-corn/#recipe" class="clickable-img">
+                        <img
+                           src="images/tomato-corn-ribs.png"
+                           class="img-fluid rounded recipe-img pb-3 image"
+                           alt=""
+                           />
+                        <div class="middle">
+                           <p>yuuumm.. let's start cooking</p>
+                        </div>
+                     </a>
+                     <a href="https://thewoksoflife.com/chinese-pork-bone-soup-with-tomatoes-potatoes-corn/#recipe" class="recipe-cta">
+                        <h3>Tomato, Corn & Ribs Soup</h3>
+                     </a>
+                     <p class="white-bg">
+                        Perfect for a gloomy day, dig into this cubed pork dish that melts in your mouth braised in a sweet, umami and sticky sauce. This easy version of the recipe only requires you shoving everything in a pot and let it simmer. Best served with a bowl of rice 🍚
+                     </p>
+                  </div>
+                  <div class="col-md-6 px-5">
+                     <a href="" class="clickable-img">
+                        <img
+                           src="images/coconut-chicken-soup.jpeg"
+                           class="img-fluid rounded recipe-img pb-3 image"
+                           alt=""
+                           />
+                        <div class="middle">
+                           <p>yuuumm.. let's start cooking</p>
+                        </div>
+                     </a>
+                     <a href="" class="recipe-cta">
+                        <h3>Coconut & Chicken Soup</h3>
+                     </a>
+                     <p class="white-bg">
+                        One for those that wants a light and healthy disn that'll keep you going back for more! You can also shred the chicken and mix in the sauce to make it less messy to eat.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+                  <div class="recipe-category">
+            <h2 style="color:var(--fourth-color)"><b>Seafood Stuff</b></h2>
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-6 px-5">
+                     <a href="https://redhousespice.com/red-cooked-pork-belly/#recipe" class="clickable-img">
+                        <img
+                           src="images/garlic-shrimp-vermicelli.jpeg"
+                           class="img-fluid rounded recipe-img pb-3 image"
+                           alt=""
+                           />
+                        <div class="middle">
+                           <p>yuuumm.. let's start cooking</p>
+                        </div>
+                     </a>
+                     <a href="https://redhousespice.com/red-cooked-pork-belly/#recipe" class="recipe-cta">
+                        <h3>Garlic Shrimps Vermicelli</h3>
+                     </a>
+                     <p class="white-bg">
+                        Perfect for a gloomy day, dig into this cubed pork dish that melts in your mouth braised in a sweet, umami and sticky sauce. This easy version of the recipe only requires you shoving everything in a pot and let it simmer. Best served with a bowl of rice 🍚
+                     </p>
+                  </div>
+                  <div class="col-md-6 px-5">
+                     <a href="" class="clickable-img">
+                        <img
+                           src="images/clams-pot.png"
+                           class="img-fluid rounded recipe-img pb-3 image"
+                           alt=""
+                           />
+                        <div class="middle">
+                           <p>yuuumm.. let's start cooking</p>
+                        </div>
+                     </a>
+                     <a href="" class="recipe-cta">
+                        <h3>Clams & Vegetable pot</h3>
+                     </a>
+                     <p class="white-bg">
+                        One for those that wants a light and healthy disn that'll keep you going back for more! You can also shred the chicken and mix in the sauce to make it less messy to eat.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+   </body>
 </html>
