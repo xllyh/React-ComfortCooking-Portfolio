@@ -137,6 +137,11 @@ p {
   color: #0d6efd;
 }
 
+.footer-github {
+  text-align: center;
+  text-decoration: wheat;
+}
+
 @media (max-width: 600px) {
   .btn {
     width: 100%;
